@@ -8,3 +8,4 @@ dependencies:
   - pip
   - pip:
     - git+https://github.com/harupy/mlflow.git@check-where-model-is-logged
+
