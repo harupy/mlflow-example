@@ -62,5 +62,7 @@ if __name__ == "__main__":
         mlflow.log_metric("rmse", rmse)
         mlflow.log_metric("r2", r2)
         mlflow.log_metric("mae", mae)
-
+        
+        print("x" * 100)
+        pirnt("artifact uri:", mlflow.get_artifact_uri())
         mlflow.sklearn.log_model(lr, "model")
